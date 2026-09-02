@@ -1,0 +1,20 @@
+Part,Component,Details,e.g. Brand,e.g. Part num,e.g. Link
+Device,Motor,"RF-300CA Low inertia DC solar motor, 2 V, rated load 80mA, shaft diameter 2mm.",TruMotion,37-0441,https://www.rapidonline.com/trumotion-wrf-300ca-08430-18-5-miniature-low-inertia-solar-motor-2v-1540-rpm-37-0441
+Device,Power port,"USB C, female, pigtail, waterproof.",AITRIP,B0CKL65V3N,https://www.amazon.co.uk/AITRIP-Chassis-Waterproof-Extension-Connector/dp/B0CKL65V3N
+Device,Housing,"50ml centrifuge tube with flat cap, skirted, non-sterile.",Falcon,3-280-25-8,https://www.alphalabs.co.uk/3-280-25-8
+Device,Sealing tape,"Self-Amalgamating rubber tape, black, 3 m x 25 mm.",any,2115V,https://www.screwfix.com/p/self-amalgamating-rubber-tape-black-3m-x-25mm/2115V
+Circuit board assembly,Printed Circuit Board,"22.1 x 34.8 mm PCB ordered from pcbway.com. Gerber filepath: main/Assembly/Assembly_files/Microcontroller/",pcbway,na,www.pcbway.com
+Circuit board assembly,Transistor BC547,"BJT NPN transistor, 100 mA, 45 V, 3 pin TO-92.",onsemi,RS: 761-9828,https://uk.rs-online.com/web/p/bipolar-transistors/7619828
+Circuit board assembly,Transistor BC557,"BJT PNP transistor, -100 mA, -45 V, 3 pin TO-92.",onsemi,RS: 761-3505,https://uk.rs-online.com/web/p/bipolar-transistors/7613505
+Circuit board assembly,PCB Pin headers,"5 pin, 2.54 mm pitch, unshrouded.",Wurth Elektronik,RS:763-6757,https://uk.rs-online.com/web/p/pcb-headers/7636757
+Circuit board assembly,PCB socket,"5 pin, 2.54 mm pitch. Two needed per device.",RS PRO,RS: 251-8200,https://uk.rs-online.com/web/p/pcb-sockets/2518200
+Circuit board assembly,Resistor 470 ohm,"0.25 W, 5% tolerance.",TE Connectivity,RS: 125-1158,https://uk.rs-online.com/web/p/through-hole-resistors/1251158
+Circuit board assembly,Resistor 8k2 ohm ,"0.6 W, 1% tolerance (cost a bit more but needed for keeping speed).",TE Connectivity,RS: 148-714,https://uk.rs-online.com/web/p/through-hole-resistors/0148714
+Circuit board assembly,Resistor 1k ohm,"0.6 W, 1% tolerance.",TE Connectivity,RS: 125-1159,https://uk.rs-online.com/web/p/through-hole-resistors/1251159
+Circuit board assembly,Resistor 10k ohm,"0.6 W, 0.5% tolerance.",TE Connectivity,RS: 199-7531,https://uk.rs-online.com/web/p/through-hole-resistors/1997531
+Circuit board assembly,Diode 1N4148,"400 mA, 100 V, 2 pin DO-35.",Fairchild,RS: 671-5477p,https://uk.rs-online.com/web/p/switching-diodes/6715477P
+Circuit board assembly,Microcontroller,"Trinket M0. Input  4 to 6 V, output 3.3 V, 500mA.",Adafruit,1528-2361-ND,https://www.digikey.co.uk/en/products/detail/adafruit-industries-llc/3500/7623049
+Power,Power source,"5 V, 20 Ah rechargeable lithium powerbank. USB C out port. Minimum IPX4",Paidashu,,https://www.amazon.co.uk/Waterproof-Charger-External-Chargers-Smartphones/dp/B0CKPVNB4F
+Power,Power cable,"USB C male - USB C male, charge cable, 1m, braided, 40,000+ bend lifespan.",techgear,,ebay.co.uk/itm/375256246922
+Paddles,Acrylic sheet,"Paddles laser cut from 1.5 mm acrylic sheet. stl filepath: main/Assembly/Assembly_files/Paddles/",any,any,retailacrylics.co.uk/2mm-clear-acrylic-sheet-a4-size---297-x-210mm--582-p.asp
+Arms,3D Printer filament,"Arms 3D printed from white TPU filament, 1.75 mm, 95a. dxf filepath: main/Assembly/Assembly_files/Arms/",Polymaker,PD01002,https://www.123-3d.co.uk/Polymaker-PolyFlex-TPU-90A-filament-1-75-mm-Clear-0-75-kg-PD02004-i9925-t104858.html
