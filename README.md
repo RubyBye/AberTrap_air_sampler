@@ -2,7 +2,7 @@
 
 Open-source design for a novel, lightweight, programmable sampler of airborne biological particles. Compatible with eDNA metabarcoding.
 
-This repository contains all the necessary files, instructions, and documentation for constructing and using the AberTrap.  It accompanies [this publication](link_to_AberTrap_publication)
+This repository contains all the necessary files, instructions, and documentation for constructing and using the AberTrap.  It accompanies [this publication](https://www.biorxiv.org/content/10.64898/2026.09.02.746715v1)
 
 ## Device Features
 
@@ -29,7 +29,7 @@ This repository contains all the necessary files, instructions, and documentatio
     - Documentation on how to check that your AberTrap is working as expected
 
 ## Getting Started
-1. Read the [Publication](link_to_AberTrap_publication)
+1. Read the [Publication](https://www.biorxiv.org/content/10.64898/2026.09.02.746715v1)
 2. Gather the required materials and equipment as specified in [Components](./Components/).
 3. Follow the [Assembly Instructions](./Assembly/AberTrap_Assembly_instructions.md) to build the device.
 4. Follow the [Programming Instructions](./Programming/Trinket_programming_instructions.md) to set it spinning.
