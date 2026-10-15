@@ -12,5 +12,5 @@ int CycleSeconds = 600;                  // USER INPUT. Sets the number of secon
 //set duration and rpm for the "FAST/SLOW" intervals. The sampler will keep cycling between these intervals until the total Run time is reached
 int FASTrpm = 1600;                 	   // USER INPUT. Sets the desired motor speed (in revolutions per minute; rpm) for FAST speed intervals 
 int FASTmin = 1;                         // USER INPUT. Sets the duration (in minutes) of FAST speed intervals. 
-int SLOWrpm = 10;                        // USER INPUT. Sets the motor speed for SLOW speed intervals. Meant to be in RPM but not, "10" seems to be approx 400rpm needs work to slow it down. Set to "0" for a complete PAUSE.
+int SLOWrpm = 30;                        // USER INPUT. Sets the motor speed for SLOW speed intervals. Not true rpm; setting to 30 gives about 49 rpm, 20 about 41, and 10 stalls. Set to "0" for a complete PAUSE.
 int SLOWmin = 1;                         // USER INPUT. Sets the duration (in minutes) of SLOW speed intervals. Set to "0" for continuous FAST.
