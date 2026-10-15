@@ -81,9 +81,9 @@ void loop() {
 			SlowInterval = true;                                  // If yes, switch to the 'SLOW interval'
 			Intseconds = 0;
 			Intminutes = 0;
-      digitalWrite (MOTOR,0);                               // Slow or pause the motor
+            digitalWrite (MOTOR,0);                               // Slow or pause the motor
 			PrevSpeed = SpeedRef;                                 // Stores the previous speed reference
-			SpeedRef = SLOWrpm;                                   // Set motor speed to the user-defined 'SLOW interval' speed (in rpm) 
+			SpeedRef = SLOWrpm / correction;                      // Set motor speed to the user-defined 'SLOW interval' speed (in rpm) 
 			}
 		}
 	else                                                      // If currently in a 'SLOW interval'
