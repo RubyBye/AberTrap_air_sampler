@@ -2,7 +2,7 @@
  void Speed()
  {
   // Read the motor's backEMF to measure current speed
- delayMicroseconds (ReadDelay);                                       // Brief wait before sampling backEMF
+ delayMicroseconds ( SlowInterval ? 2000 : ReadDelay);                // Brief wait before sampling backEMF, longer wait in SLOW intervals
   CurrentSpeed = analogRead(BackEMF);                                 // Read current speed from the backEMF sensor (analogue input)
   delayMicroseconds(120);                                             // Wait for A/D converter to finish the converson before proceeding
 
@@ -10,7 +10,7 @@
 int speedError = SpeedRef - CurrentSpeed;                             // Calculate speed error; difference between the desired speed (SpeedRef) and current speed (CurrentSpeed)
 
 // Proportional control (kP) to adjust the Pulse_Width based on the speed error
-float kP = 0.9;                                                       // Define a proportional constant (kP) for adjusting Pulse_Width
+float kP = SlowInterval ? 0.1 : 0.9;                                  // Define a proportional constant (kP) for adjusting Pulse_Width
 Pulse_Width += speedError * kP;                                       // Adjust the Pulse_Width based on the speed error (using proportional control)
 
 // Ensure that Pulse_Width stays within reasonable limits
